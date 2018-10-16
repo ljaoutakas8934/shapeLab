@@ -1,7 +1,7 @@
-public abstract class shape
+public abstract class Shape
 {
     private String type;
-    public shape (String type)
+    public Shape(String type)
     {
         this.type = type;
     }
