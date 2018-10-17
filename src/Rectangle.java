@@ -2,7 +2,7 @@ public class Rectangle extends Shape
 {
     private int side1;
     private int side2;
-    public Rectangle(int side1, side2)
+    public Rectangle(int side1, int side2)
     {
         super("Rectangle");
         this.side1 = side1;
@@ -10,6 +10,7 @@ public class Rectangle extends Shape
     }
     public double getArea()
     {
+
         return (side1*side2);
     }
 
