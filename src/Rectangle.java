@@ -1,3 +1,6 @@
+/**
+ * Creates a rectangle with two different side lengths and calculates the area by multiplying them and perimeter by adding all four sides
+ */
 public class Rectangle extends Shape
 {
     private int height ;
@@ -11,7 +14,7 @@ public class Rectangle extends Shape
     public double getArea()
     {
 
-        return (height*height);
+        return (height*width);
     }
 
     public double getPerimeter()
