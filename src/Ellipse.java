@@ -26,7 +26,7 @@ public class Ellipse
     }
 
     /**
-     * adds the side lengths to obtain perimeter
+     * uses the equation to find the perimeter of an ellipse
      * @return returns sum of all four side lengths
      */
     public double getPerimeter()
