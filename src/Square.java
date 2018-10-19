@@ -1,7 +1,7 @@
 public class Square extends Shape {
     private int side ;
     /**
-     * initializes the parameters of the rectangle
+     * initializes the parameters of the square
      * @param side side length 1
      */
     public Square(int side)
