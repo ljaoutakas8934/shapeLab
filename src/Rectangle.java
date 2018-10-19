@@ -1,4 +1,8 @@
 /**
+ * Harpreet Kaur
+ */
+
+/**
  * Creates a rectangle with two different side lengths of the name height and width
  */
 public class Rectangle extends Shape
