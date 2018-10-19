@@ -1,4 +1,4 @@
-public class extend Sqaure {
+public class Square extends Shape {
     private int side ;
     /**
      * initializes the parameters of the rectangle
