@@ -3,6 +3,12 @@ public class ITriangle extends Shape
 {
     private int side;
     private int base;
+    /**
+     * Initializes the value of two of its different sides for later functions
+     * @param side; Used to find Area and Perimeter
+     * @param base; Used to find Area and Perimeter
+     */
+
     public ITriangle(int side, int base)
     {
         super("ITriangle");

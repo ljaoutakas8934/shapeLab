@@ -1,12 +1,16 @@
-public class Ellipse
+/**
+ * Author Loris Jautakas
+ * This class is used to create an ellipse with two axis that can be inputted.
+ */
+public class Ellipse extends Shape
 {
     private int a ;
     private int b;
 
     /**
-     * initializes the parameters of the rectangle
-     * @param a side length 1
-     * @param b  side length 2
+     * initializes the parameters of the Ellipse
+     * @param a Major Axis
+     * @param b  Minor Axis
      */
     public Ellipse(int a, int b)
     {
@@ -16,7 +20,7 @@ public class Ellipse
     }
 
     /**
-     * multiplies the two side lengths to obtain area
+     * Finds the equation of an ellipse
      * @return returns product of side lengths which is area
      */
     public double getArea()
@@ -27,7 +31,7 @@ public class Ellipse
 
     /**
      * uses the equation to find the perimeter of an ellipse
-     * @return returns sum of all four side lengths
+     * @return returns the perimeter of an ellipse
      */
     public double getPerimeter()
     {
